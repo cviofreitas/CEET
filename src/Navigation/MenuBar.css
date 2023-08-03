@@ -1,0 +1,25 @@
+.menu-bar-container {
+    height: 10vh;
+    width: calc(100vw - 40px);
+    position: fixed;
+    bottom: 30px;
+    /* padding: 0px 20px 0px 20px; */
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+
+.menu-bar-button {
+    font-family: var(--logoFont);
+    color: var(--gray);
+    font-size: 1.8rem;
+    font-weight: 100;
+    background-color: #1e423d;
+    width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+    transition: all .2s;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.16);
+    z-index: 3;
+}

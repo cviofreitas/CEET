@@ -1,0 +1,21 @@
+.new-trip-button-container {
+    background-color: var(--darkGreen);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-trip-button {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--gray);
+    border: none;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.127);
+
+}

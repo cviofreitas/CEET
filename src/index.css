@@ -1,0 +1,111 @@
+:root {
+
+    --darkBlue: rgb(11, 32, 39);
+    --blue: rgba(64, 121, 140);
+    --darkGreen: #1e423d;
+    --green: rgba(112, 169, 161);
+    --gray: rgb(207, 215, 199);
+    --lightGray: rgba(244, 244, 244);
+    --orange: #bd9571;
+    --font1: 'Comfortaa', cursive;
+    --logoFont: 'Calistoga', cursive;
+    --boxShadow: 15px 15px 20px rgba(0, 0, 0, 0.122);
+}
+
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--logoFont);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+html {
+    background-color: var(--green);
+    font-family: var(--font1);
+    color: var(--gray);
+}
+
+.logo {
+    font-family: var(--logoFont);
+    font-weight: 300;
+}
+
+.page-container {
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    width: calc(100vw -40px);
+}
+
+.page-greeting {
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.input-1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    font-family: var(--font1);
+    font-size: 1rem;
+    background-color: rgb(94, 144, 137);
+    transition: all 1s;
+    color: white;
+    width: 100;
+}
+
+.input-1::placeholder {
+    color: var(--gray);
+
+}
+
+.input-1:focus {
+    outline: none;
+    border-radius: 20px;
+}
+
+.center-y {
+    position: relative;
+    top: 50vh;
+    transform: translateY(-80%)
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.scale-down-click:active {
+    scale: .98;
+}

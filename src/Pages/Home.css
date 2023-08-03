@@ -1,0 +1,37 @@
+.home-page {
+    background-color: var(--darkBlue);
+    height: calc(100vh - 40px);
+    position: fixed;
+    right: 0px;
+    width: calc(100vw - 39px);
+    overflow: scroll;
+    padding: 20px;
+    padding-top: 50px;
+    overflow: scroll;
+}
+
+.home-page::after {
+    position: fixed;
+    bottom: -620px;
+    background: linear-gradient(transparent, var(--darkBlue) 20%, var(--darkBlue));
+    left: 0px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.home-page .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header.dashboard h2 {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.header.dashboard p {
+    margin: 0
+}
