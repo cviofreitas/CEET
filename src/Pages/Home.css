@@ -6,7 +6,7 @@
     width: calc(100vw - 39px);
     overflow: scroll;
     padding: 20px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     overflow: scroll;
 }
 
